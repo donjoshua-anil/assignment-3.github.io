@@ -1,4 +1,4 @@
-/************* your name: 
+/************* your name: Don Joshua Anil
 
 INSTRUCTIONS:
 Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
@@ -24,7 +24,7 @@ body {
 
 /* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
 
-
+.flex{display: flex;}
  
 
 /************* site-wide text styling *************/
@@ -41,6 +41,24 @@ body {
         - change the text colour to white, and 
         - change the cursor to pointer.
 */
+h1{font-size: 48px;
+    text-align: center;}
+
+h2{font-size: 36px;
+    margin-bottom: 12px;}
+
+.large-text{font-size: 24px;}
+.fake-button{background-color: #e5af42;
+        margin: 0 auto;
+        border: 1px black solid;
+        line-height: 3;}
+
+a{text-decoration: none;
+    color: black;}
+header, footer a:hover{text-decoration: underline;}
+
+.fake-button  .large-text ,a:hover{text-decoration: underline;
+                                    background-color: #4278e5;}
 
 
 
@@ -59,9 +77,17 @@ body {
     - the footer will be 60px tall, have a font-weight of 200, and the text within will be centered vertically and horizontally.
 */
 
+header ,footer{background-color: #e5af42;}
+header{height: 150px;
+img{width: 100px;
+    margin: 25px;}
+    margin-bottom: 25px;}
 
+main{margin-bottom: 50px;}
 
+header h1{margin: 0 auto;}
 
+footer{height: 60px;}
 
 
 /************* index page *************/
