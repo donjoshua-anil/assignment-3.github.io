@@ -87,7 +87,11 @@ main{margin-bottom: 50px;}
 
 header h1{margin: 0 auto;}
 
-footer{height: 60px;}
+footer{height: 60px;
+        font-weight: 200;
+        text-align: center;
+        justify-items: center;
+        align-content: center;}
 
 
 /************* index page *************/
@@ -99,7 +103,16 @@ footer{height: 60px;}
     - each fake-button on this page will be 250px wide with 150px of space between them.
     - the pair of fake-buttons will be centered on the page. HINT: can calculate the required margin to make them appear to be centered.
 */
+img{width: 300px;
+    margin-left: 25px;
+    margin-bottom: 50px;}
 
+.index h2{line-height: 36px;}
+.index p{margin-top: 12px;}
+.index .fake-button{width: 250px;
+                    gap: 150px;
+                    margin: 0 auto;}
+.index .fake-button, a{text-align: center;}
 
 
 
@@ -119,8 +132,23 @@ footer{height: 60px;}
 
 */
 
+.booking-page main{width: 600px;
+                    justify-content: center;}
+.booking-page p{font-size: 18px;}
+.day-selector{gap: 12px;}
+.day-selector li{margin-bottom: 20px;
+                    width: 60px;}
 
+.day-selector .small-button, li{border: 1px black solid;
+                                text-align: center;
+                            padding: 5px;}
+.top-margin{margin-top: 24px;
+            margin-bottom: 12px;}
+.booking-page .fake-button{width: 200px;
+                            text-align: center;}
+.clicked-class{color: #e5af42;}
 
+main{justify-items: center;}
 
 
 
@@ -140,6 +168,16 @@ footer{height: 60px;}
     - the edges of the button will line up exactly with the text-area element. HINT: time for some math!
 */
 
+.contact-page main{height: 420px;}
+label{width: 150px;
+        text-align: right;}
+input{width: 300px;}
+label{margin-right: 24px;}
+textarea{height: 150px;}
 
+form,input,textarea,button{font-family: 'Montserrat', sans-serif;
+                            line-height: 24px;
+                        font-size: 16px;
+                        margin-bottom: 24px;}
 
 
